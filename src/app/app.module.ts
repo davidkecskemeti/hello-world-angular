@@ -7,13 +7,17 @@ import {CoursesComponent} from './courses/courses.component';
 import {CoursesService} from './courses.service';
 import {FormsModule} from '@angular/forms';
 import {SummaryPipe} from './summary.pipe';
+import {FavoriteComponent} from './favorite/favorite.component';
+import {BoostrapPanelComponent} from './boostrap-panel/boostrap-panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CourseComponent,
     CoursesComponent,
-    SummaryPipe
+    SummaryPipe,
+    FavoriteComponent,
+    BoostrapPanelComponent
   ],
   imports: [
     BrowserModule,

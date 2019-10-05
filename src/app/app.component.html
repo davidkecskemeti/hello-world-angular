@@ -1,2 +1,11 @@
 <h1>Angular</h1>
 <app-courses></app-courses>
+<app-favorite (click)="onFavoriteChange($event)" [isFavorite]="post.isFavorite"></app-favorite>
+<app-favorite [is-favorite]="post.isSelected"></app-favorite>
+<app-boostrap-panel>
+  <ng-container class="heading">Heading</ng-container>
+  <div class="body">
+    <h2>Body</h2>
+    <p>Some content here</p>
+  </div>
+</app-boostrap-panel>
